@@ -74,6 +74,7 @@ h1 {
 
 .text-start {
     width: 35%;
+    line-height: 20px;
 }
 
 .image-start {
@@ -83,7 +84,68 @@ h1 {
     top: 20px;
 }
 
-.fa-solid {
-    margin-top: 45px;
+.fa-arrow-down {
+    margin-top: 35px;
     font-size: 40px;
+}
+
+.hr-start {
+    margin-top: 80px;
+    border: 1px solid rgb(237, 237, 237);
+}
+
+.container-mid {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h2 {
+    margin-top: 40px;
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.invoice {
+    display: flex;
+    gap: 50px;
+}
+
+.invoice div{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.invoice div button{
+    background-color: white;
+    height: 20px;
+    aspect-ratio: 1;
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 50%;
+}
+
+.invoice div button:hover{
+    border: 4px solid #1c6fff;
+}
+
+.plans {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans div{
+    width: 30%;
+}
+
+.plan-offer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    vertical-align: middle;
+}
+
+.fa-user {
+    font-size: 18px;
 }
