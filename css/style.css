@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.container div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.container div a{
+    color: black;
+    text-decoration: none;
+}
+
+.head-button {
+    background-color: #0861FE;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 200;
+    padding-inline: 15px;
+    padding-block: 5px;
+}
+
+.head-button:hover {
+    background-color: #1c6fff;;
+}
+
+main {
+    padding-top: 18px;
+}
+
+.start {
+    height: 560px;
+    background-color: #B4D0E6;
+}
+
+.container-start {
+    margin: 0 auto;
+    width: 60%;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    /* vertical-align: center; */
+}
+
+.container-text-image {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.text-start {
+    width: 35%;
+}
+
+.image-start {
+    width: 65%;
+    position: absolute;
+    left: 332px;
+    top: 20px;
+}
+
+.fa-solid {
+    margin-top: 45px;
+    font-size: 40px;
+}
