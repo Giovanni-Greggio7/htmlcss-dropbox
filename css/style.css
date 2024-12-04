@@ -49,7 +49,7 @@ main {
 }
 
 .start {
-    height: 560px;
+    height: 510px;
     background-color: #B4D0E6;
 }
 
@@ -60,7 +60,7 @@ main {
 
 h1 {
     font-family: "Rubik", sans-serif;
-    padding-top: 50px;
+    padding-top: 0px;
     font-size: 60px;
     font-weight: 700;
     /* vertical-align: center; */
@@ -134,7 +134,7 @@ h2 {
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .plan-colums {
@@ -167,7 +167,29 @@ h2 {
 .space {
     margin-bottom: 40px;
 }
-.fa-folder {
-    margin-top: 20px;
+
+ul {
+    line-height: 15px;
 }
 
+li {
+    margin-top: 15px;
+}
+
+.head-offer {
+    display: flex;
+    justify-content: center;
+    background-color: #0861FE;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 200;
+    padding-inline: 15px;
+    padding-block: 10px;
+}
+
+.button-offer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
