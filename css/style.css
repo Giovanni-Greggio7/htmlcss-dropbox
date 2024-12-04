@@ -189,7 +189,15 @@ li {
 }
 
 .button-offer {
+    margin-left: 20px;
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.small {
+    display: flex;
+    align-items: flex-start;
+    width: 20%;
 }
