@@ -134,10 +134,12 @@ h2 {
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 12px;
+    height: 700px;
 }
 
 .plan-colums {
+    
     width: 30%;
     border: 1px solid rgb(190, 190, 190);
 }
@@ -161,15 +163,16 @@ h2 {
 }
 
 .fa-user {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .space {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 ul {
     line-height: 15px;
+    margin-bottom: 30px;
 }
 
 li {
@@ -177,6 +180,7 @@ li {
 }
 
 .head-offer {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     background-color: #0861FE;
@@ -190,14 +194,38 @@ li {
 
 .button-offer {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
 .small {
+    width: 40%;
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.fa-check {
+    color: #0861FE;
+}
+
+button:hover {
+    background-color: #1c6fff;;
+}
+
+.head-offer1 {
+    margin-top: 5px;
     display: flex;
-    align-items: flex-start;
-    width: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: #0861FE;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 200;
+    padding-inline: 60px;
+    padding-block: 10px;
 }
