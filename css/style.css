@@ -352,6 +352,38 @@ button:hover {
     font-weight: 700;
 }
 
+.drop-ops {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.op {
+    flex-basis: calc(100% / 3 - 20px);
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.title-op {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.drop-ops div img{
+    width: 100%;
+}
+
+.op p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
 
 
 
