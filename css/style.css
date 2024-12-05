@@ -255,6 +255,104 @@ button:hover {
     padding-block: 10px;
 }
 
+.team{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 190);
+    margin-top: 20px;
+}
+
+.title{
+    padding-block: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.team-offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2-team {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.team-button {
+    margin-right: 20px;
+    background-color: #0861FE;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 200;
+    padding-block: 10px;
+    padding-inline: 30px;
+}
+
+.team-text{
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+.team-text p{
+    font-size: 12px;
+}
+
+.team-text h4{
+    font-size: 16px;
+}
+
+.partner {
+    margin-top: 150px;
+    height: 500px;
+}
+
+.contain-partner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.partner h4{
+    font-size: 20px;
+}
+
+
+.article-partner{
+    font-size: 14px;
+}
+
+
+.image-partner {
+    width: 65%;
+    line-height: 20px;
+}
+
+.text-partner {
+    width: 35%;
+}
+
+.text-partner button{
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 15px;
+    margin-top: 20px;
+}
+
+.h2-business{
+    margin-top: 20px;
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
 
 
 
